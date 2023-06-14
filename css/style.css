@@ -45,7 +45,8 @@ a {
 
 .keyvisual{
   background-size: auto;
-  background:url(../img/keyvisual/keyvisual.jpg);
+  background-position: 50% 50%;
+  background-image:url(../img/keyvisual/keyvisual.jpg);
 }
 
 .title-box{
@@ -73,7 +74,6 @@ a {
 /*work*/
 
 .work{
-  width: 100%;
   padding-top: 50px;
   background: #e3f2fd;
 }
@@ -85,7 +85,6 @@ a {
 }
 
 .work-picture{
-  width: 250px;
   display: inline-block;
   margin: 0 50px;
 }
@@ -139,7 +138,13 @@ a {
 .skills-img{
   width: 300px;
   height: 300px;
+  opacity: 0.7;
 }
+
+.skills-img:hover{
+  opacity: 10;
+}
+
 
 /*plan*/
 
