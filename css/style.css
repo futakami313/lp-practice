@@ -44,7 +44,7 @@ a {
 
 
 .keyvisual{
-  background-size: auto;
+  background-size: 100% 100%;
   background-position: 50% 50%;
   background-image:url(../img/keyvisual/keyvisual.jpg);
 }
@@ -85,11 +85,13 @@ a {
 }
 
 .work-picture{
+  width: 40%;
   display: inline-block;
-  margin: 0 50px;
+  text-align: center;
 }
 
 .work-box{
+  width: 60%;
   text-align: center;
 }
 
@@ -107,7 +109,7 @@ a {
   font-size: 15px;
   line-height: 18px;
   word-break: break-all;
-  margin: 35px;
+  margin: 35px 0;
 }
 /*skills*/
 
