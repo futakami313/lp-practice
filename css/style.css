@@ -7,6 +7,7 @@
   margin: 0 auto;
   padding: 0;
   max-width: 100%;
+  display: block;
 }
 /*header*/
 
@@ -21,6 +22,7 @@
 }
 
 .box {
+  display: inline-block;
   margin-bottom: 15px;
 }
 
@@ -58,9 +60,11 @@
   padding-top: 400px;
   padding-bottom: 400px;
   margin: 0 auto;
+  display: block;
 }
 
 .main-title{
+  display: block;
   font-size: 65px;
   font-weight: 700;
   color: #6ba7eb;
@@ -69,6 +73,7 @@
 }
 
 .sub-title{
+  display: block;
   font-size: 40px;
   font-weight: 700;
   color: #ffffff;
@@ -92,11 +97,14 @@
   width: 40%;
   display: inline-block;
   text-align: center;
+  flex-direction: row;
 }
 
 .work-box{
   width: 60%;
+  display: inline-block;
   text-align: center;
+  flex-direction: row;
 }
 
 .work-title{
@@ -122,6 +130,7 @@
 }
 
 .title-box2{
+  display: inline-block;
   width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -205,12 +214,14 @@ tr:nth-child(2n+1){
   justify-content: center;
 }
 .fab {
+  display: inline-block;
   width: 185px;
   overflow: hidden;
   font-size: 40px;
   text-align: center;
 }
 .fa {
+  display: inline-block;
   width: 185px;
   overflow: hidden;
   font-size: 40px;
@@ -228,6 +239,7 @@ tr:nth-child(2n+1){
 }
 
 .Copyright-box{
+  display: block;
   text-align: right;
 }
 .title4{
