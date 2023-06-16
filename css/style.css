@@ -12,6 +12,7 @@
 /*header*/
 
 .header{
+  display: block;
   background-color: #fff;
 }
 
@@ -50,6 +51,7 @@
 
 
 .keyvisual{
+  display: block;
   background-size: 100% 100%;
   background-position: 50% 50%;
   background-image:url(../img/keyvisual/keyvisual.jpg);
@@ -83,6 +85,7 @@
 /*work*/
 
 .work{
+  display: block;
   padding-top: 50px;
   background: #e3f2fd;
 }
@@ -125,6 +128,10 @@
 }
 /*skills*/
 
+.skills{
+display: block;
+}
+
 .skills-inner{
   padding-bottom: 70px;
 }
@@ -164,6 +171,7 @@
 /*plan*/
 
 .plan{
+  display: block;
   background: #d0dfea;
 }
 
@@ -201,6 +209,7 @@ tr:nth-child(2n+1){
 
 /*sns*/
 .sns{
+  display: block;
   background: #e3f2fd;
 }
 
@@ -230,6 +239,7 @@ tr:nth-child(2n+1){
 
 /*footer*/
 .footer{
+  display: block;
   background: #cfd8dc;
 }
 
