@@ -5,9 +5,6 @@
 .inner{
   width: 1100px;
   margin: 0 auto;
-  padding: 0;
-  max-width: 100%;
-  display: block;
 }
 @media (max-width: 1199px),(max-width: 767px) {
   .inner {
@@ -65,13 +62,13 @@ main{
   display: block;
   background-size: 100% 100%;
   background-position: 50% 50%;
+  padding-top: 400px;
+  padding-bottom: 400px;
   background-image:url(../img/keyvisual/keyvisual.jpg);
 }
 
 .title-box{
   width: 100%;
-  padding-top: 400px;
-  padding-bottom: 400px;
   margin: 0 auto;
   display: block;
 }
@@ -94,13 +91,13 @@ main{
 }
 
 @media (max-width: 1199px) {
-  .title-box{
+  .keyvisual{
     padding-top: 250px;
     padding-bottom: 250px;
   }
 }
 @media (max-width: 767px) {
-  .title-box{
+  .keyvisual{
     padding-top: 200px;
     padding-bottom: 200px;
   }
@@ -176,10 +173,8 @@ main{
 /*skills*/
 
 .skills{
-display: block;
-}
-
-.skills-inner{
+  display: block;
+  padding-top: 50px;
   padding-bottom: 70px;
 }
 
@@ -188,13 +183,13 @@ display: block;
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  padding: 50px 0;
 }
 
 .title3{
   display: inline-block;
   font-size: 40px;
   letter-spacing: 10px;
+  margin-bottom: 50px;
 }
 
 .skills-box{
@@ -208,6 +203,7 @@ display: block;
   width: 300px;
   height: 300px;
   opacity: 0.7;
+  transition: 0.8s;
 }
 
 .skills-img:hover{
@@ -239,9 +235,7 @@ display: block;
 .plan{
   display: block;
   background: #d0dfea;
-}
-
-.plan-inner{
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
@@ -286,9 +280,6 @@ tr:nth-child(2n+1){
 .sns{
   display: block;
   background: #e3f2fd;
-}
-
-.sns-inner{
   padding: 200px 0;
 }
 .sns-box{
@@ -297,7 +288,7 @@ tr:nth-child(2n+1){
   margin: 0 auto;
   justify-content: center;
 }
-.sns-box :hover{
+.sns-item :hover{
   transition: 0.5s;
   background-color: #fff;
 }
@@ -309,11 +300,12 @@ tr:nth-child(2n+1){
   text-align: center;
   padding-top: 25px;
   padding-bottom: 25px;
+  transition: 0.5s;
 }
 
 @media (max-width: 767px){
 
-  .sns-inner {
+  .sns {
     padding: 50px 15px;
   }
   .sns-box {
@@ -331,9 +323,6 @@ tr:nth-child(2n+1){
 .footer{
   display: block;
   background: #cfd8dc;
-}
-
-.footer-inner{
   padding-top: 20px;
   padding-bottom: 25px;
 }
