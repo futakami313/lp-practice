@@ -51,6 +51,31 @@
   text-decoration:none;
 }
 
+
+.menu{
+  display: none;
+}
+
+@media (max-width: 767px){
+.contact-btn {
+  display: none ;
+}
+.menu{
+  display: inline-block;
+}
+
+.contact-btn:hover{
+  display: none ;
+}
+
+.contact-a {
+  display: none ;
+}
+
+
+}
+
+
 /*main*/
 main{
   padding-top: 78px;
@@ -65,6 +90,14 @@ main{
   padding-top: 400px;
   padding-bottom: 400px;
   background-image:url(../img/keyvisual/keyvisual.jpg);
+}
+
+
+@media (max-width: 1199px),(max-width: 767px) {
+  .keyvisual{
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+  }
 }
 
 .title-box{
@@ -143,9 +176,20 @@ main{
   flex-direction: row;
 }
 
+
+@media (max-width: 1199px),(max-width: 767px){
+  .work-picture{
+    width: 50%;
+  }
+  .work-box{
+    width: 97%;
+  }
+}
+
 .work-title{
   display: inline-block;
   font-size: 40px;
+  font-weight: 700;
   letter-spacing: 10px;
   margin-top: 20px;
   margin-left: auto;
@@ -188,6 +232,7 @@ main{
 .title3{
   display: inline-block;
   font-size: 40px;
+  font-weight: 700;
   letter-spacing: 10px;
   margin-bottom: 50px;
 }
