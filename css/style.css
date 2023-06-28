@@ -85,19 +85,12 @@ main{
 
 .keyvisual{
   display: block;
-  background-size: 100% 100%;
-  background-position: 50% 50%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
   padding-top: 400px;
   padding-bottom: 400px;
   background-image:url(../img/keyvisual/keyvisual.jpg);
-}
-
-
-@media (max-width: 1199px),(max-width: 767px) {
-  .keyvisual{
-    background-size: 100% 100%;
-    background-position: 50% 50%;
-  }
 }
 
 .title-box{
