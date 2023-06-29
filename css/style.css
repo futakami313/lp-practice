@@ -151,7 +151,7 @@ main{
 
 @media (max-width: 1199px),(max-width: 767px){
   .work-inner{
-    width: 100%;
+    width: 97%;
     flex-direction: column;
   }
 }
